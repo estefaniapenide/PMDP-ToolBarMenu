@@ -15,7 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button1.setOnClickListener{
-            startActivity(Intent(this,Ej1MenuOpciones::class.java))
+            startActivity(Intent(this,Ej1MenuOpcionesActivity::class.java))
+        }
+
+        binding.button2.setOnClickListener{
+            startActivity(Intent(this,Ej2MenuOpcionesActivity::class.java))
         }
     }
 }

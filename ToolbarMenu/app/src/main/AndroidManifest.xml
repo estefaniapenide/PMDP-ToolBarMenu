@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ToolbarMenu">
         <activity
-            android:name=".Ej1MenuOpciones"
+            android:name=".Ej3AtrasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ej2MenuOpcionesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ej1MenuOpcionesActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
