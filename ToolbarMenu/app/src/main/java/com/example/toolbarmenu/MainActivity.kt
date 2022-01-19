@@ -21,5 +21,13 @@ class MainActivity : AppCompatActivity() {
         binding.button2.setOnClickListener{
             startActivity(Intent(this,Ej2MenuOpcionesActivity::class.java))
         }
+
+        binding.button3.setOnClickListener{
+            startActivity(Intent(this,Ej3AtrasActivity::class.java))
+        }
+
+        binding.button4.setOnClickListener{
+            startActivity(Intent(this,Ej4ContextMenu::class.java))
+        }
     }
 }

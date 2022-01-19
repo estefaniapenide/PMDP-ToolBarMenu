@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import com.example.toolbarmenu.databinding.ActivityEj2MenuOpcionesBinding
+import com.google.android.material.snackbar.Snackbar
 
 class Ej2MenuOpcionesActivity : AppCompatActivity() {
 
@@ -27,8 +28,12 @@ class Ej2MenuOpcionesActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item:MenuItem):Boolean{
         when(item.itemId){
-            R.id.nuevo->{ Toast.makeText(this,"Añadir uno nuevo",Toast.LENGTH_LONG).show()}
-            R.id.info->{ Toast.makeText(this,"Información",Toast.LENGTH_LONG).show()}
+            R.id.nuevo->{
+                //Toast.makeText(this,"Añadir uno nuevo",Toast.LENGTH_LONG).show()
+            Snackbar.make(binding.root,"Añadir uno nuevo", Snackbar.LENGTH_SHORT).show()}
+            R.id.info->{
+               // Toast.makeText(this,"Información",Toast.LENGTH_LONG).show()
+            Snackbar.make(binding.root,"Información",Snackbar.LENGTH_SHORT).show()}
         }
         return super.onOptionsItemSelected(item)
     }
