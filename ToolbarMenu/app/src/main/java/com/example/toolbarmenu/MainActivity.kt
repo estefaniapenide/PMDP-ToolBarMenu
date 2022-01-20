@@ -29,5 +29,9 @@ class MainActivity : AppCompatActivity() {
         binding.button4.setOnClickListener{
             startActivity(Intent(this,Ej4ContextMenu::class.java))
         }
+
+        binding.button42.setOnClickListener{
+            startActivity(Intent(this,Ej4ContextMenu2::class.java))
+        }
     }
 }
