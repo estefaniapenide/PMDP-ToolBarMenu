@@ -16,11 +16,15 @@
         <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/layout/activity_ej4_context_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/layout/activity_ej4_context_menu2.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/layout/activity_ej5_toolbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/layout/activity_ej6_navigation_drawer.xml" value="0.1" />
         <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/layout/ej6_barra_navegacion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/layout/ej6_cabecera_ventana_nav.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/menu/menu1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/menu/menu1_delete_add.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/menu/menu2.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/menu/menu3.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/a20estefaniapc/AndroidStudioProjects/ToolbarMenu/app/src/main/res/menu/menu5navigation_view.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ToolbarMenu</string>
+    <string name="abrir">Abrir</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="inicio">Inicio</string>
+    <string name="about">Sobre esta app</string>
+    <string name="contacto">Contacto</string>
+    <string name="valoracion">Valoración</string>
 </resources>

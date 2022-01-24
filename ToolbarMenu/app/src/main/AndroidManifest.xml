@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ToolbarMenu">
         <activity
-            android:name=".Ej5ToolbarActivity"
+            android:name=".Ej6NavigationDrawerActivity"
             android:exported="false"
             android:theme="@style/Theme.ToolbarMenu.NoActionBar"/>
+        <activity
+            android:name=".Ej5ToolbarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ToolbarMenu.NoActionBar" />
         <activity
             android:name=".Ej4ContextMenu2Activity"
             android:exported="false" />
