@@ -9,7 +9,7 @@ import android.view.View
 import android.widget.AdapterView
 import com.example.toolbarmenu.databinding.ActivityEj4ContextMenuBinding
 
-class Ej4ContextMenu : AppCompatActivity() {
+class Ej4ContextMenuActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj4ContextMenuBinding
 

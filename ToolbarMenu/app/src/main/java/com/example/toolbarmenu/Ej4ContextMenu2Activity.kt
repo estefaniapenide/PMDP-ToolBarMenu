@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.Toast
 import com.example.toolbarmenu.databinding.ActivityEj4ContextMenu2Binding
 
-class Ej4ContextMenu2 : AppCompatActivity() {
+class Ej4ContextMenu2Activity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj4ContextMenu2Binding
     private lateinit var vistaActual:View
@@ -22,7 +22,7 @@ class Ej4ContextMenu2 : AppCompatActivity() {
 
         registerForContextMenu(binding.tv1)
         registerForContextMenu(binding.tv2)
-       // registerForContextMenu(this as view)
+        registerForContextMenu(binding.fondo)
 
     }
 
@@ -35,7 +35,7 @@ class Ej4ContextMenu2 : AppCompatActivity() {
         vistaActual=v!!
         if(vistaActual==binding.tv1 || vistaActual==binding.tv2) {
             menuInflater.inflate(R.menu.menu4_menu_contextual_ocultar, menu)
-        }else {
+        }else if (vistaActual==binding.fondo){
             menuInflater.inflate(R.menu.menu4_menu_contextual_mostrar, menu)
         }
         menu!!.setHeaderTitle("Menú contextual")

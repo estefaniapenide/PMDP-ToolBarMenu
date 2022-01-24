@@ -27,11 +27,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.button4.setOnClickListener{
-            startActivity(Intent(this,Ej4ContextMenu::class.java))
+            startActivity(Intent(this,Ej4ContextMenuActivity::class.java))
         }
 
         binding.button42.setOnClickListener{
-            startActivity(Intent(this,Ej4ContextMenu2::class.java))
+            startActivity(Intent(this,Ej4ContextMenu2Activity::class.java))
         }
     }
 }
